@@ -1,0 +1,383 @@
+body {
+    margin-top: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color: #be4eff;
+}
+
+.image-box {
+    width: 750px;
+    height: 450px;
+    position: relative;
+    margin-left: 190px;
+}
+
+.image-box img {
+    width: 750px;
+    height: 450px;
+    display: block;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+.image-box p {
+    position: absolute;
+    top: 15%;
+    left: -15%;
+    color: white;
+    font-size: 60px;
+    margin-left: 300px;
+    font-family: Calibri, sans-serif;
+}
+
+.image-box h1 {
+    position: absolute;
+    top: 45%;
+    left: -15%;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    margin-left: 300px;
+    font-family: Calibri, sans-serif;
+    font-weight: 500;
+}
+
+.image-box h2 {
+    position: absolute;
+    top: 52%;
+    left: -15%;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    margin-left: 300px;
+    font-family: Calibri, sans-serif;
+}
+
+.image-box a {
+    color: rgb(214, 214, 214);
+    text-decoration: none; 
+}
+
+.image-box a:hover {
+    color: #e7bafa;
+}
+
+.email-form {
+    gap: 10px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 300px;
+    top: 60%;
+    left: -15%;
+}
+
+.email-form input {
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.email-form button {
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.circle-item {
+    text-align: center;
+}
+
+.circle-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.circle-item h3 {
+    margin: 10px;     
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #333;
+}
+
+.circle-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+    font-family: sans-serif;
+}
+
+.backgroundcolor { 
+    position: relative;
+    margin-top: 35px;
+    width: 1500px;
+    height: 525px;
+    background-color: #fbf2f2;
+    padding: 20px;
+    opacity: 100%;
+}
+
+.cities-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;              
+    gap: 60px 140px;            
+    margin-left: 350px;
+    margin-top: -520px;
+    position: relative;
+}
+
+.cities-img img {
+    margin-left: 300px;
+    margin-top: 100px;
+    width: 850px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.cities-img p {
+    font-size: 60px;
+    margin-left: 300px;
+    font-family: Calibri, sans-serif;
+    font-weight: 501;
+    margin-bottom: -9px;
+    color: #272727;
+}
+
+.cities-img h1 {
+    font-size: 20px;
+    margin-left: 300px;
+    font-family: Calibri, sans-serif;
+    font-weight: 400;
+    margin-bottom: -70px;
+    color: #333;
+}   
+
+.cities-img a {
+    color: #be4eff;
+    text-decoration: none;
+}
+
+.cities-img a:hover {
+    color: #a74eff;
+}
+
+.grid {
+    margin-left: 300px;
+    margin-top: 85px;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 850px;
+}
+
+.grid img {
+    width: 280px;
+    height: 280px;
+}
+
+.grid1 {
+    margin-top: 85px;
+    margin-left: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 870px;
+}
+
+.grid1 img {
+    width: 425px;
+    height: 425px;
+    border-radius: 20px;
+}
+
+.background-box1 {
+    width: 425px;
+    height: 425px;
+    background-color: #f1edfef1;
+    border-radius: 20px;
+}
+
+.background-box1 h1 {
+    margin-top: 100px;
+    margin-left: 25px;
+    font-size: 45px;
+    font-family: Calibri, sans-serif;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.background-box1 p {
+    margin-left: 25px;
+    font-size: 16px;
+    font-family: Calibri, sans-serif;
+    font-weight: 300;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.background-box1 h2 {
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #333;
+    margin-top: 15px;
+}
+
+.background-box1 a {
+    font-size: 17px;
+    font-family: Calibri, sans-serif;
+    font-weight: 600;
+    color: #8a5cff;
+    text-decoration: none;
+}
+
+.background-box1 a:hover {
+    color: #be4eff;
+}
+
+.exc-text h1{
+    margin-left: 300px;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: Calibri, sans-serif;
+    margin-bottom: 0px;
+}
+
+.exc-text p {
+    margin-left: 300px;
+    font-size: 18px;
+    font-family: Calibri, sans-serif;
+    font-weight: 450;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.exc-text a {
+    text-decoration: none;
+    font-weight: 600;   
+    font-family: sans-serif;
+    color: #8a5cff;
+}
+
+.exc-text a:hover {
+    color: #be4eff;
+}
+
+.exclusive-apartments img {
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 850px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.bottom-bg {
+    margin-top: 50px;
+    width: 1500px;
+    height: 250px;
+    background-color: #fbf2f2;
+}
+
+.bottom-bg h1 {
+    margin-left: 300px;
+    font-size: 50px;
+    font-family: Calibri, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+}
+
+.bottom-bg h2 {
+    margin-left: 305px;
+    font-size: 20px;
+    font-family: Calibri, sans-serif;
+    font-weight: 400;
+    margin-bottom: -69px;
+    color: #333;
+}
+
+.bottom-bg p {
+    margin-left: 300px;
+    font-size: 18px;
+    font-family: Calibri, sans-serif;
+    font-weight: 450;
+    margin-top: 9px;
+    padding-bottom: 20px;
+    color: #333;
+}
+
+.form {
+    margin-left: 365px;
+    margin-top: 37px;
+    gap: 10px;
+}
+
+.form input {
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    padding-right: 200px;
+}
+
+.bottom-bg h3 {
+    margin-left: 770px;
+    margin-top: -65px;
+    font-size: 20px;
+    font-family: Calibri, sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+
+.email-form1 input {
+    padding: 12px;
+    border: none;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-left: 835px;
+    margin-top: -72px;
+    padding-right: 200px;
+}
+
+.email-form1 button {
+    padding: 12px;
+    border: none;
+    border-radius: 17px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    margin-left: 1235px;
+    margin-top: -68px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
